@@ -8,12 +8,12 @@
  * @author Deilyn Medrano
  */
 public class EstudianteDeilyn {
-    public class Estudiante {
+    
     private String cedula;
     private String nombre;
     private String carrera;
 
-    public Estudiante(String cedula, String nombre, String carrera) {
+    public EstudianteDeilyn(String cedula, String nombre, String carrera) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.carrera = carrera;
@@ -37,4 +37,4 @@ public class EstudianteDeilyn {
     }
 }
     
-}
+
