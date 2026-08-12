@@ -7,7 +7,8 @@
  *
  * @author Deilyn Medrano
  */
-public class Estudiante {
+public class EstudianteDeilyn {
+    public class Estudiante {
     private String cedula;
     private String nombre;
     private String carrera;
@@ -34,4 +35,6 @@ public class Estudiante {
     public String toString() {
         return "Estudiante: " + nombre + " (Cédula: " + cedula + ", Carrera: " + carrera + ")";
     }
+}
+    
 }
